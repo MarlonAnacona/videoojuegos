@@ -4,41 +4,24 @@ using UnityEngine;
 
 public class Velociraptor1 : MonoBehaviour
 {
-    public Transform Velociraptor1Transform;
-    private float speed = 2.0f;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float velocidad = 2f; // Velocidad de movimiento
+    private int direccion = 1; // Variable para controlar la dirección del movimiento (1 para adelante, -1 para atrás)
 
     // Update is called once per frame
-void Update()
+    void Update()
     {
-        Vector3 position = Velociraptor1Transform.position;
-  
-        if (position.x >= -2.0f && position.x < 2.0f && position.y == 0.0f)
-        {
-            position.x += Time.deltaTime * speed;
-        }
-        else if (position.x > 0.0f && position.y >= 0.0f)
-        {
-            position.x -= Time.deltaTime * speed;
-            position.y += Time.deltaTime * speed;
-        }
-        else if (position.x > -2.0f && position.y >= 0.0f)
-        {
-            position.x -= Time.deltaTime * speed;
-            position.y -= Time.deltaTime * speed;
-        }
-        else
-        {
-            position.x = -2.0f;
-            position.y = 0.0f;
-        }
+        // Mueve el objeto en la dirección del eje Z (forward) a la velocidad especificada y multiplicado por la dirección
+        transform.Translate(Vector3.forward * Time.deltaTime * velocidad * direccion);
 
-        Velociraptor1Transform.position = position;
+        // Limita la posición en el eje X entre -2.5 y 2.5
+        Vector3 posicionActual = transform.position;
+        posicionActual.x = Mathf.Clamp(posicionActual.x, -2.5f, 2.5f);
+        transform.position = posicionActual;
+
+        // Si el objeto alcanza los límites, cambia la dirección
+        if (posicionActual.x >= 2.5f || posicionActual.x <= -2.5f)
+        {
+            direccion *= -1; // Cambia la dirección
+        }
     }
 }
