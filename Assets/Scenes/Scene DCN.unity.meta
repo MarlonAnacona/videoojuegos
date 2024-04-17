@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 7cecc7d0326455f409feeea3bfff8546
+<<<<<<<< HEAD:Assets/Scenes/Scene DCN.unity.meta
+guid: f2b22d874811ee44680e5443bd82d335
+========
+guid: 371593debbc30ef43bed2057e067e703
+>>>>>>>> kac:Assets/Scenes/SceneKAC.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
