@@ -52,4 +52,8 @@
         "Temp/": true
     },
     "dotnet.defaultSolution": "videoojuegos.sln"
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/hlr
