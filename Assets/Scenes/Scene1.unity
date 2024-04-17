@@ -31364,6 +31364,7 @@ CharacterJoint:
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Modification:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
@@ -31421,6 +31422,43 @@ CharacterJoint:
 PrefabInstance:
   m_ObjectHideFlags: 0
 <<<<<<< HEAD
+=======
+  m_SwingAxis: {x: 0, y: 0, z: 1}
+  m_TwistLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowTwistLimit:
+    limit: -20
+    bounciness: 0
+    contactDistance: 0
+  m_HighTwistLimit:
+    limit: 20
+    bounciness: 0
+    contactDistance: 0
+  m_SwingLimitSpring:
+    spring: 0
+    damper: 0
+  m_Swing1Limit:
+    limit: 10
+    bounciness: 0
+    contactDistance: 0
+  m_Swing2Limit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_EnableProjection: 0
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 0
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!65 &2140557482
+BoxCollider:
+  m_ObjectHideFlags: 0
+>>>>>>> origin/dcn
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31439,6 +31477,7 @@ PrefabInstance:
   serializedVersion: 3
   m_Size: {x: 0.0035773444, y: 0.0046589673, z: 0.0028403096}
   m_Center: {x: 3.4924597e-10, y: 0.002329483, z: 0.0005174016}
+<<<<<<< HEAD
 --- !u!1 &2140594383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9c54af74a074de144859d47cb2c4ea19, type: 3}
@@ -31471,6 +31510,8 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 9c54af74a074de144859d47cb2c4ea19, type: 3}
+=======
+>>>>>>> origin/dcn
 --- !u!1 &2147053571
 GameObject:
   m_ObjectHideFlags: 0
@@ -31495,6 +31536,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147053571}
+<<<<<<< HEAD
 =======
 >>>>>>> origin/hlr
   serializedVersion: 2
@@ -31608,6 +31650,44 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0a7b81b296c66943a526ec60119775a, type: 3}
+=======
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.43, y: -2.45, z: 2.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2060447627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2147053573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147053571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301e1b1251d4e0e4e9af4c3fb5f8dc98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_States:
+  - m_Name: Default
+    m_Preset: {fileID: 0}
+    m_BlockList: []
+    m_Default: 1
+  m_MinPitchLimit: -90
+  m_MaxPitchLimit: 90
+  m_LockPitch: 0
+  m_MinYawLimit: -180
+  m_MaxYawLimit: 180
+  m_LockYaw: 0
+  m_RotateWithCrosshairs: 1
+  m_RotationSpeed: 15
+  m_IgnorePositionalLookOffset: 0
+  m_PositionOffset: {x: 0, y: 0, z: 0}
+  m_MoveSpeed: 0
+>>>>>>> origin/dcn
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -31618,6 +31698,7 @@ SceneRoots:
   - {fileID: 995302664}
   - {fileID: 323461921}
   - {fileID: 1330380489}
+<<<<<<< HEAD
   - {fileID: 1280984175}
   - {fileID: 2118390006}
   - {fileID: 1273124841}
@@ -31650,3 +31731,15 @@ SceneRoots:
   - {fileID: 57263082}
   - {fileID: 1339074208}
   - {fileID: 1088301038}
+=======
+  - {fileID: 1804109279}
+  - {fileID: 595605325}
+  - {fileID: 1826471195}
+  - {fileID: 1522553565}
+  - {fileID: 1794393732}
+  - {fileID: 691852760}
+  - {fileID: 1007765329}
+  - {fileID: 1449970970}
+  - {fileID: 1121987942}
+  - {fileID: 1280984175}
+>>>>>>> origin/dcn
