@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+
 public class CountMoney : MonoBehaviour
 {
     public TMP_Text coinText; // UI Text to display the coin count
-    private int coinCount = 0; // Variable to keep track of the collected coins
+    public static int coinCount = 0; // Variable to keep track of the collected coins
     public static CountMoney instance;
 
     // Start is called before the first frame update
