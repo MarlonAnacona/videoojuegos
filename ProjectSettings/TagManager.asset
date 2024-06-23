@@ -4,15 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Coin
-  - Enemy
-  - Star
-  - Dino
+  - Section
+  - Obstacles
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Post Processing
+  - 
   - Water
   - UI
   - 

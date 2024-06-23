@@ -1,0 +1,10 @@
+﻿D:\t$m$p$$$\TrexFin.max
+D:\t$m$p$$$\MAXFILES.TXT
+D:\trex\17trexFinTexture\Diffuze.tif
+D:\trex\17trexFinTexture\Reflection.tif
+D:\trex\17trexFinTexture\glossiness.jpg
+D:\trex\17trexFinTexture\tongue.jpg
+D:\trex\17scalingFinalModel\NeckBake.pc2
+D:\trex\17trexFinTexture\Disp.tif
+D:\trex\17scalingFinalModel\SpineBake1.pc2
+D:\trex\17scalingFinalModel\SpineBake2.pc2

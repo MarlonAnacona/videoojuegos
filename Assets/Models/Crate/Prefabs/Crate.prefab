@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9192320613776241258}
   - component: {fileID: 505727971863140876}
   - component: {fileID: 4752982144554940197}
-  - component: {fileID: 7728278885131076493}
+  - component: {fileID: -1712461582983660299}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7728278885131076493
+--- !u!65 &-1712461582983660299
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
