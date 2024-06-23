@@ -8,7 +8,7 @@ public class RecogerMoneda : MonoBehaviour
 
     void Start()
     {
-        puntaje = GameObject.FindGameObjectWithTag("Player").GetComponent<Puntaje>();        
+        puntaje = GameObject.FindGameObjectWithTag("Player").GetComponent<Puntaje>();
     }
 
     private void OnTriggerEnter(Collider other)
